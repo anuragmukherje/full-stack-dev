@@ -236,3 +236,10 @@
 //     i++;
 // }
 
+// 11. Do-While loop
+
+// intialExpression
+// do {
+//     code to be executed
+//     incrementExpression/decrementExpression
+// } while (condition) ;
