@@ -243,3 +243,51 @@
 //     code to be executed
 //     incrementExpression/decrementExpression
 // } while (condition) ;
+
+// let i = 1;
+// do {
+//     console.log("Hello ", i);
+//     i++;
+// } while (i <= 5);/
+
+
+// 12. Logical Operations
+
+// const a = true;
+// const b = false;
+// const c = false;
+
+// 1. Logical AND (&&)
+// --> True if both the operands/ boolean values are true, else evaluates to false 
+
+// console.log(a && c);
+// console.log(b && c);
+// console.log(a && b);
+// console.log(a && b && c);
+
+// 2. Logical OR (||)
+// --> True if either of the operands/ boolean values are true, 
+// --> evaluates false if both are false 
+
+// console.log(a || b);
+// console.log(a || c);
+// console.log(b || c);
+// console.log(a || b || c);
+
+// 3. Logcial NOT (!)
+// --> True if the operand is false and vice versa
+
+// console.log(!a);
+// console.log(!b);
+
+// Examples
+
+// let password = "webv"
+
+// if (password.length >= 8 && password.includes('dev')) {
+//     console.log("Password is secured");
+// }else if (password.length > 6 || password.includes('web')) { 
+//     console.log("Valid password!");
+// }else {
+//     console.log("Invalid Password!!");
+// }
