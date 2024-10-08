@@ -70,3 +70,6 @@ const pl = ["Golang", "java", "python", "c++", "dart"];
 // console.log(pl.join(" / "));
 
 console.log(pl.reverse());
+
+
+
