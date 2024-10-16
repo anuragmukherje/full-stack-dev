@@ -64,12 +64,31 @@
 
 // Example- 2
 
-const pl = ["Golang", "java", "python", "c++", "dart"];
+// const pl = ["Golang", "java", "python", "c++", "dart"];
 
 // console.log(pl.includes("shell"));
 // console.log(pl.join(" / "));
+//console.log(pl.reverse());
+// console.log(pl.slice(0,2));
+// console.log(pl.slice(2,3));
 
-console.log(pl.reverse());
+// const numbers = [3,5,4,1,2];
+// console.log(numbers);
+// console.log(numbers.sort());
 
 
 
+
+// OBJECTS -> JS data structure => label our data -> {key, value} pair
+
+const person = {
+    personName: "Hashino Takashi",
+    personAge: 54,
+    isEmpl: true
+};
+
+console.log(person);
+
+console.log(person.personAge);
+console.log(person.personName);
+console.log(person.isEmpl);
