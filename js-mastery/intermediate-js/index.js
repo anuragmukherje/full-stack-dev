@@ -81,14 +81,14 @@
 
 // OBJECTS -> JS data structure => label our data -> {key, value} pair
 
-const person = {
-    personName: "Hashino Takashi",
-    personAge: 54,
-    isEmpl: true
-};
+// const person = {
+//     personName: "Hashino Takashi",
+//     personAge: 54,
+//     isEmpl: true
+// };
 
-console.log(person);
+// console.log(person);
 
-console.log(person.personAge);
-console.log(person.personName);
-console.log(person.isEmpl);
+// console.log(person.personAge);
+// console.log(person.personName);
+// console.log(person.isEmpl);
